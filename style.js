@@ -1,17 +1,17 @@
 console.log("work")
 
-let food = document.querySelector(".food");
+let food = (".food");
 console.log(food)
-let color = document.querySelector(".color");
+let color = (".color");
 console.log(color)
 let button = document.querySelector("button");
 console.log(button)
 
-button.onclick = function(){
+button.addEventListener("click", function(){
+let food = document.querySelector(".food").value
+console.log(food);
+console.log(color);
+if(food === "Chili Dog" & color === "Blue"){
+document.querySelector("p").innerHTML = "Your too slow! You got Sonic";
 }
-let answerfood = food.value;
-let answercolor = color.value;
-
-if(answerfood === "Chili Dog"){
-    inner.HTML
-}
+})
